@@ -1,0 +1,57 @@
+body {
+    font-family: "Comic Sans MS", "Poppins", cursive;
+    background: #ffe4ec; /* baby pink background */
+    text-align: center;
+}
+
+.container {
+    background: #fff0f5; /* light pink card */
+    width: 320px;
+    margin: 100px auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.5);
+}
+
+h2 {
+    color: #ff69b4; /* hot pink */
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ffb6c1;
+    border-radius: 15px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #ff69b4;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ff1493;
+}
+
+.register-btn {
+    background: #ffb6c1;
+}
+
+.register-btn:hover {
+    background: #ff69b4;
+}

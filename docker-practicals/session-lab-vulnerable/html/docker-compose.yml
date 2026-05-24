@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  vulnerable:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./vulnerable:/var/www/html
+
+  secure:
+    build: .
+    ports:
+      - "8081:80"
+    volumes:
+      - ./secure:/var/www/html
